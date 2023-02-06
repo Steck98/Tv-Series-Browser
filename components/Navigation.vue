@@ -23,7 +23,7 @@
           v-for="(item, index) in navigation.navigationItems"
           :key="index"
           class="navigation__mobile-list-item h3"
-          :to="`/${item.url}/`"
+          :to="`${item.url}`"
         >
           {{ item.navItem }}
         </nuxt-link>
@@ -35,7 +35,7 @@
           v-for="(item, index) in navigation.navigationItems"
           :key="index"
           class="navigation__list-item h5"
-          :to="`/${item.url}/`"
+          :to="`${item.url}`"
         >
           {{ item.navItem }}
         </nuxt-link>
@@ -114,10 +114,14 @@ export default {
     }
   }
   &__hamburger {
+    
     position: fixed;
     top: rem(15px);
     right: rem(15px);
     z-index: 99999;
+    @include tablet{
+      display: none;
+    }
     &-bar {
       width: rem(50px);
       margin: rem(8px) 0;

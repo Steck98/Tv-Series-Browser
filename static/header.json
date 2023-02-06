@@ -1,24 +1,24 @@
 {
 "navigationItems":[
     {
-        "navItem": "section1",
-        "url": "section1"
+        "navItem": "Home",
+        "url": "/"
     },
     {
         "navItem": "section2",
-        "url": "section2"
+        "url": "/section2/"
     },
     {
         "navItem": "section3",
-        "url": "section3"
+        "url": "/section3/"
     },
     {
         "navItem": "section4",
-        "url": "section4"
+        "url": "/section4/"
     },
     {
-        "navItem": "section5",
-        "url": "section5"
+        "navItem": "Contact",
+        "url": "/contact/"
     }
 ]
 
