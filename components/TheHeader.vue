@@ -15,9 +15,6 @@
         </div>
     </div>
     <Navigation ref="nav" :class="{ sticky: isSticky }"/>
-    <div class="second__wrapper">
-      <img class="second" src="../assets/images/background.jpeg" alt="" />
-    </div>
   </div>
 </template>
 <script>
@@ -58,9 +55,11 @@ export default {
 
 <style lang="scss" scoped>
 .header {
+
     &__content{
         position: relative;
     }
+
   .h1 {
     text-align: center;
     display: flex;
@@ -73,6 +72,7 @@ export default {
     color: $darkRed;
     z-index: 1;
   }
+
   &__image {
     height: 60vh;
     background-color: rgba(0, 0, 0, 0.9);
@@ -85,15 +85,6 @@ export default {
       z-index: -999;
     }
   }
-}
-
-.second__wrapper{
-    background-color: rgba(0, 0, 0, 0.9);
-}
-.second {
-  object-fit: cover;
-  width: 100%;
-  height: 200vh;
 }
 .sticky {
   position: fixed;

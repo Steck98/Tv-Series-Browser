@@ -70,6 +70,7 @@ export default {
     rgba(135, 7, 25, 1) 31%,
     rgba(27, 27, 27, 1) 64%
   );
+
   &__list {
     @include tablet {
       display: flex;
@@ -86,13 +87,14 @@ export default {
       }
     }
   }
+
   &__desktop{
     display: none;
     @include tablet {
       display: block;
-      
     }
   }
+
   &__mobile{
     position: fixed;
     top: 0;
@@ -113,8 +115,8 @@ export default {
       transition: 0.5s;
     }
   }
+
   &__hamburger {
-    
     position: fixed;
     top: rem(15px);
     right: rem(15px);
@@ -144,11 +146,5 @@ export default {
       }
     }
   }
-}
-.sticky {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
 }
 </style>
