@@ -1,0 +1,26 @@
+{
+"navigationItems":[
+    {
+        "navItem": "Home",
+        "url": "/"
+    },
+    {
+        "navItem": "section2",
+        "url": "/section2/"
+    },
+    {
+        "navItem": "section3",
+        "url": "/section3/"
+    },
+    {
+        "navItem": "section4",
+        "url": "/section4/"
+    },
+    {
+        "navItem": "Contact",
+        "url": "/contact/"
+    }
+]
+
+
+}
