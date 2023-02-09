@@ -1,3 +1,7 @@
 <template>
-  <div></div>
+  <div>
+    <HomePageIntroSection />
+    <HomePageFeaturedSection />
+    <HomePageParallax />
+  </div>
 </template>
