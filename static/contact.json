@@ -1,0 +1,31 @@
+{
+  "contactData": {
+    "name": "Rafał",
+    "surname": "Steczkiewicz",
+    "email": "steczkiewicz1998@gmail.com",
+    "phone": "576 793 363",
+    "socialMedia": [
+      {
+        "name": "Facebook",
+        "url": "https://www.facebook.com/rafi.steczkiewicz/",
+        "src": "facebook.svg"
+      },
+      {
+        "name": "Instagram",
+        "url": "https://www.instagram.com/rafalsteck/",
+        "src": "instagram.svg"
+      },
+      {
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/in/rafa%C5%82-steczkiewicz-7675b4226/",
+        "src": "linkedin.svg"
+      },
+      {
+        "name": "GitHub",
+        "url": "https://github.com/Steck98",
+        "src": "github.svg"
+      }
+    ],
+    "location": "Kraków"
+  }
+}

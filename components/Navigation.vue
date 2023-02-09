@@ -30,7 +30,7 @@
     </div>
     <!-- Desktop -->
     <div class="row navigation__desktop">
-      <div class="navigation__list columns medium-8 medium-offset-2">
+      <div class="navigation__list columns medium-10 medium-offset-1">
         <nuxt-link
           v-for="(item, index) in navigation.navigationItems"
           :key="index"
@@ -54,7 +54,6 @@ export default {
   },
   methods: {
     toggleNavigation() {
-      console.log(this.navigationOpen);
       this.navigationOpen = !this.navigationOpen;
     },
   },
@@ -98,13 +97,14 @@ export default {
   &__mobile{
     position: fixed;
     top: 0;
+    color: #fff;
     display: flex;
     width: 100%;
     align-items: center;
     flex-direction: column;
     background-color: $darkRed;
     padding: 10vh 0 9vh 0;
-    top: -60%;
+    top: -100%;
     transition: 0.5s;
     z-index: 99998;
     a{
