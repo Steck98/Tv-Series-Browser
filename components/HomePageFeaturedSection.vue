@@ -22,11 +22,6 @@
     </div>
     <div class="row featured__container featured__container--right">
       <div
-        class="columns small-12 medium-6 featured__image-wrapper featured__image-wrapper--right"
-      >
-        <img src="" alt="" width="350" height="250" />
-      </div>
-      <div
         class="columns small-12 medium-6 featured__content featured__content--right"
       >
         <div class="h3 featured__title">
@@ -45,7 +40,13 @@
           laboriosam dignissimos, assumenda ipsam commodi!
         </div>
       </div>
+      <div
+        class="columns small-12 medium-6 featured__image-wrapper featured__image-wrapper--right"
+      >
+        <img src="" alt="" width="350" height="250" />
+      </div>
     </div>
+    
   </div>
 </template>
 <script></script>
@@ -62,11 +63,12 @@
   &__container {
     display: flex;
     flex-direction: column;
-    &--right {
-      flex-direction: column-reverse;
-    }
+    
     @include tablet {
       flex-direction: row;
+    }
+    &--right {
+      flex-direction: row-reverse;
     }
   }
   &__content {
