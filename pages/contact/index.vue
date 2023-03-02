@@ -52,14 +52,22 @@ export default {
 </script>
 <style lang="scss" scoped>
 .contact {
-  height: 80vh;
+  height: 100vh;
   display: flex;
+  margin-top: 25px;
+    margin-bottom: 25px;
+    @include tablet{
+      height: 80vh;
+      margin-top: 0;
+      margin-bottom: 0;
+    }
   &__content-wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
   }
   &__content {
+    border-radius: 15px;
     text-align: center;
     display: flex;
     flex-direction: column;
