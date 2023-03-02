@@ -1,4 +1,4 @@
-# Polfendo Zielonebramy
+# TV Series Browser
 
 ## Build Setup
 

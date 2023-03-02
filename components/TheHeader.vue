@@ -22,7 +22,6 @@ export default {
   },
   mounted() {
     this.navPosition = this.$refs.nav.$el.offsetTop
-    console.log(this.navPosition)
     window.addEventListener("scroll", this.handleScroll);
   },
   beforeDestroy() {
@@ -32,11 +31,9 @@ export default {
     handleScroll() {
       this.parallax = -(window.pageYOffset * 1.7);
       if (window.pageYOffset > this.navPosition) {
-        console.log( this.navPosition)
         this.isSticky = true;
       }
       if (window.pageYOffset < this.navPosition) {
-        console.log( this.navPosition)
         this.isSticky = false;
       }
     },
