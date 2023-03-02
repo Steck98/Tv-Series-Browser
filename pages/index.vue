@@ -1,3 +1,9 @@
 <template>
-  <div></div>
+  <div>
+    <HomePageIntroSection />
+    <HomePageFeaturedSection />
+    <HomePageParallax />
+    <Numbers />
+    <!-- <Slider /> -->
+  </div>
 </template>

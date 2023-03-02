@@ -65,10 +65,12 @@ export default {
   z-index: 900;
   background: linear-gradient(
     12deg,
-    $darkRed,
-    rgba(135, 7, 25, 1) 31%,
+    $darkGreen,
     rgba(27, 27, 27, 1) 64%
   );
+  -webkit-box-shadow: 0 0 28px 0px rgba(2, 214, 53, 1);
+-moz-box-shadow: 0 0 28px 0px rgba(2, 214, 53, 1);
+box-shadow: 0 0 28px 0px rgba(2, 214, 53, 1);
 
   &__list {
     @include tablet {
@@ -80,8 +82,9 @@ export default {
       &-item {
         margin: 0 rem(10px);
         &:hover {
-          color: $lightRed;
-          transform-origin: 1.5;
+          color: $lightGreen;
+          transform: scale(1.1);
+          transition: 1s;
         }
       }
     }
@@ -102,7 +105,7 @@ export default {
     width: 100%;
     align-items: center;
     flex-direction: column;
-    background-color: $darkRed;
+    background-color: $darkGreen;
     padding: 10vh 0 9vh 0;
     top: -100%;
     transition: 0.5s;
@@ -113,6 +116,13 @@ export default {
     &--open{
       top: 0;
       transition: 0.5s;
+    }
+    &-list-item{
+      &:hover {
+          color: $lightGreen;
+          transform: scale(1.1);
+          transition: 1s;
+        }
     }
   }
 
@@ -129,7 +139,7 @@ export default {
       margin: rem(8px) 0;
       border-left: 25%;
       height: rem(7px);
-      background-color: $darkRed;
+      background-color: $lightGreen;
       transform:translateX(0);
       transition: 1s;
 

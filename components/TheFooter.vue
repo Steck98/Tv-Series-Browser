@@ -53,8 +53,7 @@ export default {
 .footer {
   background: linear-gradient(
     12deg,
-    $darkRed,
-    rgba(135, 7, 25, 1) 31%,
+    $darkGreen,
     rgba(27, 27, 27, 1) 64%
   );
   &__contact {

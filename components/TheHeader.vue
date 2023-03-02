@@ -2,16 +2,7 @@
   <div class="header">
     <div class="header__content">
         <div class="header__title">
-          <h1 class="h1">Boxing Hall Of Fame</h1>
-        </div>
-        <div class="header__image">
-          <img
-            src="../assets/images/boxHeader.jpeg"
-            alt=""
-            width="1980"
-            height="1420"
-            :style="`transform: translateY(${parallax}px)`"
-          />
+          <h1 class="h1 column">Hundreds of TV Series to browse</h1>
         </div>
     </div>
     <Navigation ref="nav" :class="{ sticky: isSticky }"/>
@@ -59,7 +50,10 @@ export default {
     &__content{
         position: relative;
     }
-
+    &__title{
+      height: 50vh;
+      background: rgba($font,0.8);
+    }
   .h1 {
     text-align: center;
     display: flex;
@@ -69,21 +63,8 @@ export default {
     height: 100%;
     justify-content: center;
     align-items: center;
-    color: $darkRed;
+    color: $lightGreen;
     z-index: 1;
-  }
-
-  &__image {
-    height: 60vh;
-    background-color: rgba(0, 0, 0, 0.9);
-    img {
-      object-position: bottom;
-      position: fixed;
-      width: 100%;
-      object-fit: cover;
-      height: 100vh;
-      z-index: -999;
-    }
   }
 }
 .sticky {
