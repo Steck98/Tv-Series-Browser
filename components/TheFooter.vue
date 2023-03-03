@@ -5,7 +5,6 @@
         class="columns small-10 small-offset-1 medium-5 medium-offset-1 footer__contact-info h5"
       >
         <div>{{ contact.name }} {{ contact.surname }}</div>
-        <div>{{ contact.phone }}</div>
         <div>{{ contact.email }}</div>
         <div>{{ contact.location }}</div>
       </div>
