@@ -52,7 +52,7 @@ export default {
 </script>
 <style lang="scss" scoped>
 .contact {
-  height: 100vh;
+  height: 100%;
   display: flex;
   margin-top: 25px;
     margin-bottom: 25px;
