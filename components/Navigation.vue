@@ -68,9 +68,9 @@ export default {
     $darkGreen,
     rgba(27, 27, 27, 1) 64%
   );
-  -webkit-box-shadow: 0 0 28px 0px rgba(2, 214, 53, 1);
--moz-box-shadow: 0 0 28px 0px rgba(2, 214, 53, 1);
-box-shadow: 0 0 28px 0px rgba(2, 214, 53, 1);
+  -webkit-box-shadow: 0 0 28px 0 rgba(2, 214, 53, 1);
+-moz-box-shadow: 0 0 28px 0 rgba(2, 214, 53, 1);
+box-shadow: 0 0 28px 0 rgba(2, 214, 53, 1);
 
   &__list {
     @include tablet {

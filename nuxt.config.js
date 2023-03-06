@@ -6,7 +6,7 @@ export default {
     htmlAttrs: {
       lang: "pl",
     },
-    title: "Boxing Hall of Fame",
+    title: "Tv Series Browser",
     meta: [
       {
         hid: "og:image",

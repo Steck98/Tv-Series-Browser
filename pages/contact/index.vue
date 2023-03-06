@@ -73,9 +73,9 @@ export default {
     flex-direction: column;
     justify-content: center;
     padding: rem(65px) rem(15px);
-    -webkit-box-shadow: 0 0 28px 0px rgba(2, 214, 53, 1);
-  -moz-box-shadow: 0 0 28px 0px rgba(2, 214, 53, 1);
-  box-shadow: 0 0 28px 0px rgba(2, 214, 53, 1);
+    -webkit-box-shadow: 0 0 28px 0 rgba(2, 214, 53, 1);
+  -moz-box-shadow: 0 0 28px 0 rgba(2, 214, 53, 1);
+  box-shadow: 0 0 28px 0 rgba(2, 214, 53, 1);
         background-color: $font;
        
   }
